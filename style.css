@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none
+}
+
+body, html {
+    width: 100%;
+    background: url(img/agorasim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li, a {
+    font-weight: 400;
+    color: white;
+    ;
+}
+
+header { /*esse é o cabeçario*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0575C1;
+    height: 10vh;
+    opacity: 0.9;
+    
+}
+
+header ul li a {
+    margin: 20px;
+}
+
+.nav-bar, div {
+    display: flex;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0 24px;
+    margin-left: 22px;
+}
+
+.nav-bar li a:hover {
+    background-color: chocolate;
+    border-radius: 22px;
+    padding: 6px 4px;
+}
+
+.headernike {
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    position: relative;
+    bottom: 24px;
+    
+}
+
+.item {
+    position: absolute;
+    right: 300px;
+}
+ 
+img {
+    width: 100px;
+    cursor: default;
+}
+
+#main-1 {
+    padding: 20px 30px;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h1, h2, h3 {
+    padding: 15px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+
+caption {
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.art1 {
+    position: relative;
+}
+
+.item2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+tr, td {
+    border: 2px solid white;
+    padding: 20px 30px;
+    color: white;
+    text-align: center;
+}
